@@ -3,4 +3,4 @@ deployment:
       tasks:
         - export DEPLOYPATH=/home/jaehivaf/public_html/
         - /bin/cp index.html $DEPLOYPATH 
-        - /bin/cp /js/darkModeToggle.js $DEPLOYPATH
+        - /bin/cp ./js/darkModeToggle.js $DEPLOYPATH
