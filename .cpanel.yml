@@ -1,6 +1,6 @@
 ---
 deployment:
 	tasks:
-		- DEPLOYPATH=/home/example/public_html/
+		- DEPLOYPATH=/home/jaehivaf/public_html/
 		- /bin/cp index.html $DEPLOYPATH
 		- /bin/cp style.css $DEPLOYPATH
