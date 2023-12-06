@@ -1,5 +1,8 @@
 ---
 deployment:
-	tasks:
-		- export DEPLOYPATH=/home/jaehivaf/public_html/
-		- /bin/cp index.html $DEPLOYPATH
+      tasks:
+        - export DEPLOYPATH=/home/jaehivaf/public_html/
+        - /bin/cp index.html $DEPLOYPATH #Copy specific file to destination from root
+        # - /bin/cp /<sub_folder>/<file_name> $DEPLOYPATH #copy specific file from source sub folder
+        # - /bin cp * $DEPLOYPATH #copy all from root 
+        # - /bin cp /<sub_folder>/* $DEPLOYPATH #copy all from sub folder root
