@@ -1,6 +1,6 @@
 ---
 deployment:
-    tasks:
-        - export DEPLOYPATH=/home/jaehivaf/public_html/
-        - /bin/cp -R css $DEPLOYPATH
-        - /bin/cp index.html $DEPLOYPATH
+		tasks:
+				- export DEPLOYPATH=/home/jaehivaf/public_html/
+				- /bin/cp -R css $DEPLOYPATH
+				- /bin/cp index.html $DEPLOYPATH
