@@ -7,3 +7,7 @@ deployment:
         - /bin/cp about.html $DEPLOYPATH
         - /bin/cp contact.html $DEPLOYPATH
         - /bin/cp ./js/darkModeToggle.js $DEPLOYPATH/js
+        - /bin/cp -r ./assets/imgs/boston/. $DEPLOYPATH/assets/imgs/boston
+        - /bin/cp -r ./assets/imgs/headshots/. $DEPLOYPATH/assets/imgs/headshots
+        - /bin/cp -r ./assets/imgs/london/. $DEPLOYPATH/assets/imgs/london
+        - /bin/cp -r ./assets/imgs/newyork/. $DEPLOYPATH/assets/imgs/newyork
